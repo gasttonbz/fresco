@@ -1,0 +1,10 @@
+@import "_reset.scss";
+@import "_commons.scss";
+@import "_fonts.scss";
+@import "_nav-bar.scss";
+@import "_content.scss";
+@import "_footer.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//poner main de las distintas paginas
+@import "_index.scss";

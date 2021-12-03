@@ -1,0 +1,41 @@
+footer {
+	background-color: $bg-principal;
+	height: 10vh;
+	border-radius: 10px;
+	padding: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	ul {
+		list-style: none;
+		width: 60%;
+		margin-top: 20px;
+
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		li {
+			img {
+				width: 50%;
+				display: block;
+				margin: auto;
+			}
+		}
+	}
+
+}
+
+@media only screen and (min-width: 600px) {
+	footer ul li img {
+		width: 30%;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	footer ul li img {
+		width: 12%;
+	}
+}
