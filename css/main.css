@@ -41,6 +41,60 @@ main.locales p {
   text-align: center;
   font-size: 1.4rem; }
 
+main.contacto form {
+  width: 75%; }
+
+main.contacto button {
+  border: 0px solid red; }
+
+@media only screen and (min-width: 550px) {
+  main.contacto form {
+    width: 50%; } }
+
+@media only screen and (min-width: 950px) {
+  main.contacto form {
+    width: 25%; } }
+
+main.error404 {
+  margin: 20vh auto 5vh; }
+  main.error404 img {
+    display: block;
+    margin: auto;
+    width: 80%; }
+
+.enlaces404 {
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); }
+  .enlaces404:hover {
+    background-color: #08AEEA;
+    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+    transform: scale(1.01);
+    color: white;
+    text-shadow: 2px 2px 5px gray; }
+
+@media only screen and (min-width: 768px) {
+  main.error404 img {
+    width: 50%; } }
+
+.fresco-breadcrumb {
+  margin-top: 15vh;
+  background-color: white; }
+  .fresco-breadcrumb a {
+    color: black;
+    font-size: 1.1rem; }
+    .fresco-breadcrumb a:hover {
+      color: #5aad80; }
+
+.active-breadcrumb {
+  font-size: 1.1rem; }
+
 .card:hover {
   box-shadow: 2px 2px 5px lightgray;
   transform: scale(1.01);
@@ -7925,8 +7979,7 @@ main.main-index section.destacado {
   background-attachment: fixed;
   width: 100%;
   min-height: 40vh;
-  padding: 60px 20px;
-  border-radius: 10px; }
+  padding: 60px 20px; }
   main.main-index section.destacado h2, main.main-index section.destacado .h2 {
     color: white;
     font-weight: 700;

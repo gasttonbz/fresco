@@ -1,3 +1,7 @@
+// Aca se encuentra el contenido de las distintas paginas del sitio
+
+
+// Main general
 main {
 	margin-top: 12vh;
 	h1 {
@@ -16,6 +20,7 @@ main {
 
 
 
+// Main locales.html
 main.locales p {
 	text-align: center;
 	font-size: $titulo4;
@@ -23,7 +28,87 @@ main.locales p {
 
 
 
+// Main contacto.html
+main.contacto {
+	// margin-bottom: 100px;
+	form {
+		width: 75%;
+	}
+	button {
+	border: 0px solid red;
+	}
+}
 
+@media only screen and (min-width: 550px) {
+	main.contacto form {
+		width: 50%;
+	}
+}
+@media only screen and (min-width: 950px) {
+	main.contacto form {
+		width: 25%;
+	}
+}
+
+
+
+
+//Main Error 404
+main.error404 {
+	margin: 20vh auto 5vh;
+	img {
+		display: block;
+		margin: auto;
+		width: 80%;
+	}
+}
+.enlaces404 {
+	border-radius: 10px;
+	padding: 20px;
+	margin: 10px;
+	font-size: 1.3rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: #85FFBD;
+	background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+	&:hover {
+		background-color: #08AEEA;
+		background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+		transform: scale(1.01);
+		color: white;
+		text-shadow: 2px 2px 5px gray;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	main.error404 img {
+		width: 50%;
+	}
+}
+
+
+
+
+
+
+
+
+// Breadcrumb
+.fresco-breadcrumb {
+	margin-top: 15vh;
+	background-color: $texto-claro;
+	a {
+		color: black;
+		font-size: 1.1rem;
+		&:hover {
+			color: #5aad80;
+		}
+	}
+}
+.active-breadcrumb {
+	font-size: 1.1rem;
+}
 
 
 
@@ -43,7 +128,6 @@ main.locales p {
 	text-align: center;
 	margin-bottom: 5px;
 }
-
 
 
 //Boton
