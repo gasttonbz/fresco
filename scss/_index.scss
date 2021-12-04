@@ -1,20 +1,13 @@
 main.main-index {
-	margin-top: 12vh;
 	h1 {
 		display: none;
-	}
-	h2 {
-		font-size: $titulo2;
-		font-weight: bold;
-		text-align: center;
-		margin-bottom: 20px;
 	}
 	section.destacado {
 		background-image: url("../img/green-pattern-2.webp");
 		background-attachment: fixed;
 		width: 100%;
 		min-height: 40vh;
-		padding: 20px;
+		padding: 60px 20px;
 		border-radius: 10px;
 		h2 {
 			color: white;

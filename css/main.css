@@ -10,8 +10,7 @@
 nav {
   background-color: #7AEAB0;
   width: 100%;
-  height: 10vh;
-  border-radius: 10px; }
+  height: 10vh; }
   nav img {
     width: 80%; }
   nav .item-nav, nav .item-nav:active, nav .item-nav:visited, nav .item-nav:link {
@@ -25,6 +24,23 @@ nav {
   nav .container-fluid, nav .container-sm, nav .container-md, nav .container-lg, nav .container-xl, nav .container-xxl {
     background-color: #7AEAB0; }
 
+main {
+  margin-top: 12vh; }
+  main h1, main .h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; }
+  main h2, main .h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px; }
+
+main.locales p {
+  text-align: center;
+  font-size: 1.4rem; }
+
 .card:hover {
   box-shadow: 2px 2px 5px lightgray;
   transform: scale(1.01);
@@ -32,7 +48,9 @@ nav {
 
 .card-titulo {
   font-size: 1.4rem;
-  text-align: center; }
+  margin: auto;
+  text-align: center;
+  margin-bottom: 5px; }
 
 .boton {
   background-color: #85FFBD;
@@ -64,7 +82,6 @@ nav {
 footer {
   background-color: #7AEAB0;
   height: 10vh;
-  border-radius: 10px;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -77,7 +94,7 @@ footer {
     justify-content: space-between;
     align-items: center; }
     footer ul li img {
-      width: 50%;
+      width: 40%;
       display: block;
       margin: auto; }
 
@@ -7900,31 +7917,26 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-main.main-index {
-  margin-top: 12vh; }
-  main.main-index h1, main.main-index .h1 {
-    display: none; }
-  main.main-index h2, main.main-index .h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px; }
-  main.main-index section.destacado {
-    background-image: url("../img/green-pattern-2.webp");
-    background-attachment: fixed;
-    width: 100%;
-    min-height: 40vh;
-    padding: 20px;
-    border-radius: 10px; }
-    main.main-index section.destacado h2, main.main-index section.destacado .h2 {
-      color: white;
-      font-weight: 700;
-      text-shadow: 4px 4px 5px black; }
-    main.main-index section.destacado p {
-      color: white;
-      text-shadow: 4px 4px 5px black;
-      font-size: 3rem;
-      font-weight: 700; }
-  main.main-index section.secciones a {
-    padding: 20px;
-    font-size: 1.2rem; }
+main.main-index h1, main.main-index .h1 {
+  display: none; }
+
+main.main-index section.destacado {
+  background-image: url("../img/green-pattern-2.webp");
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 40vh;
+  padding: 60px 20px;
+  border-radius: 10px; }
+  main.main-index section.destacado h2, main.main-index section.destacado .h2 {
+    color: white;
+    font-weight: 700;
+    text-shadow: 4px 4px 5px black; }
+  main.main-index section.destacado p {
+    color: white;
+    text-shadow: 4px 4px 5px black;
+    font-size: 3rem;
+    font-weight: 700; }
+
+main.main-index section.secciones a {
+  padding: 20px;
+  font-size: 1.2rem; }

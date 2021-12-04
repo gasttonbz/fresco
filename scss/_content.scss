@@ -1,3 +1,36 @@
+main {
+	margin-top: 12vh;
+	h1 {
+		font-size: $titulo1;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	h2 {
+		font-size: $titulo2;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+main.locales p {
+	text-align: center;
+	font-size: $titulo4;
+}
+
+
+
+
+
+
+
+
+
+
+
 //Tarjetas
 .card:hover {
 	box-shadow: 2px 2px 5px lightgray;
@@ -6,7 +39,9 @@
 }
 .card-titulo {
 	font-size: $titulo4;
+	margin: auto;
 	text-align: center;
+	margin-bottom: 5px;
 }
 
 
