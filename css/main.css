@@ -37,6 +37,29 @@ main {
     text-align: center;
     margin-bottom: 20px; }
 
+main.main-index h1, main.main-index .h1 {
+  display: none; }
+
+main.main-index section.destacado {
+  background-image: url("../img/green-pattern-2.webp");
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 40vh;
+  padding: 60px 20px; }
+  main.main-index section.destacado h2, main.main-index section.destacado .h2 {
+    color: white;
+    font-weight: 700;
+    text-shadow: 4px 4px 5px black; }
+  main.main-index section.destacado p {
+    color: white;
+    text-shadow: 4px 4px 5px black;
+    font-size: 3rem;
+    font-weight: 700; }
+
+main.main-index section.secciones a {
+  padding: 20px;
+  font-size: 1.2rem; }
+
 main.locales p {
   text-align: center;
   font-size: 1.4rem; }
@@ -48,10 +71,16 @@ main.contacto button {
   border: 0px solid red; }
 
 @media only screen and (min-width: 550px) {
+  footer.contacto {
+    position: fixed;
+    bottom: 0; }
   main.contacto form {
     width: 50%; } }
 
 @media only screen and (min-width: 950px) {
+  footer.contacto {
+    position: fixed;
+    bottom: 0; }
   main.contacto form {
     width: 25%; } }
 
@@ -7970,26 +7999,3 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
-
-main.main-index h1, main.main-index .h1 {
-  display: none; }
-
-main.main-index section.destacado {
-  background-image: url("../img/green-pattern-2.webp");
-  background-attachment: fixed;
-  width: 100%;
-  min-height: 40vh;
-  padding: 60px 20px; }
-  main.main-index section.destacado h2, main.main-index section.destacado .h2 {
-    color: white;
-    font-weight: 700;
-    text-shadow: 4px 4px 5px black; }
-  main.main-index section.destacado p {
-    color: white;
-    text-shadow: 4px 4px 5px black;
-    font-size: 3rem;
-    font-weight: 700; }
-
-main.main-index section.secciones a {
-  padding: 20px;
-  font-size: 1.2rem; }
