@@ -40,11 +40,12 @@ main.main-index {
 			color: white;
 			font-weight: 700;
 			text-shadow: 4px 4px 5px black;
+			font-size: 1.5rem;
 		}
 		p {
 			color: white;
 			text-shadow: 4px 4px 5px black;
-			font-size: 3rem;
+			font-size: 2rem;
 			font-weight: 700;
 		}
 	}
@@ -57,10 +58,14 @@ main.main-index {
 
 }
 
-
-
-
-
+@media only screen and (min-width: 500px) {
+	#palm {
+		font-size: 3rem;
+	}
+	#subti {
+		font-size: 2rem;
+	}
+}
 
 
 

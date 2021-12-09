@@ -49,16 +49,23 @@ main.main-index section.destacado {
   main.main-index section.destacado h2, main.main-index section.destacado .h2 {
     color: white;
     font-weight: 700;
-    text-shadow: 4px 4px 5px black; }
+    text-shadow: 4px 4px 5px black;
+    font-size: 1.5rem; }
   main.main-index section.destacado p {
     color: white;
     text-shadow: 4px 4px 5px black;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700; }
 
 main.main-index section.secciones a {
   padding: 20px;
   font-size: 1.2rem; }
+
+@media only screen and (min-width: 500px) {
+  #palm {
+    font-size: 3rem; }
+  #subti {
+    font-size: 2rem; } }
 
 main.locales p {
   text-align: center;
